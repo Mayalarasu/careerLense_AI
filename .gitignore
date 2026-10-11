@@ -1,0 +1,22 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editor settings
+.vscode/
+
+# Temporary files and logs
+*.log
+.DS_Store
+Thumbs.db
+
+# Backup scripts
+*_backup.py
